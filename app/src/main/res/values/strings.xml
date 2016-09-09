@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Java-Interview Questions</string>
+    <string name="welcome"><b>---Welcome to Java interview questions---</b>\n\n<b>1.What is JVM?</b>\n Java Virtual Machine.it is an abstract machine which provides the runtime environment in which java bytecode can be executed.\n\n
+        <b>2.What gives Java its \'write once and run anywhere\' nature?</b>\nThe bytecode. Java is compiled to be a byte code which is the intermediate language between source code and machine code. This byte code is not platform specific and hence can be fed to any platform.\n\n
+        <b>3.What if I write static public void instead of public static void?</b>\nProgram compiles and runs properly.\n\n
+        <b>4.What is constructor?</b>\nConstructor is just like a method that is used to initialize the state of an object. It is invoked at the time of object creation.\n\n
+        <b>5.Can you make a constructor final?</b>\nNo, constructor can\'t be final.\n\n
+        <b>6.Can main() method in Java can return any data?</b>\nIn java, main() method can’t return any data and hence, it’s always declared with a void return type.\n\n
+        <b>7. What are Java Packages? What’s the significance of packages?</b>\nIn Java, package is a collection of classes and interfaces which are bundled together as they are related to each other. Use of packages helps developers to modularize the code and group the code for proper re-use. Once code has been packaged in Packages, it can be imported in other classes and used.\n\n
+        <b>8.Can we declare a class as Abstract without having any abstract method?</b>\nYes, we can create an abstract class by using abstract keyword before class name even if it doesn’t have any abstract method. However, if a class has even one abstract method, it must be declared as abstract otherwise it will give an error.\n\n</string>
+
+    <string name="spring"><b>---Welcome to Spring interview questions---</b>\n\n1. <b>What is a spring?</b>\n
+
+Spring is set to be a framework which helps Java programmer for development of code and it provides IOC container, Dependency Injector, MVC flow and many other APIs for the java programmer.\n\n
+2. <b>What is the default scope of bean in Spring framework?</b>\n
+
+The default scope of bean is Singleton for Spring framework.\n\n
+3. <b>Is Singleton beans are thread safe in Spring Framework?</b>\n
+
+No, singleton beans are not thread-safe in Spring framework.\n\n
+4. <b>What is Bean Factory?</b>\n
+
+Bean Factory is core of the spring framework and, it is a Lightweight container which loads bean definitions and manages your beans.  Beans are configured using XML file and manage singleton defined bean. It is also responsible for life cycle methods and injects dependencies. It also removes adhoc singletons and factories.\n\n
+5. <b>Define Bean Wiring?</b>\n
+
+Bean wiring is the creation of associations between application components that are between the beans in a particular spring container.\n\n
+6. <b>Why Spring framework is needed?</b>\n
+
+Spring framework is needed because it is –\n
+
+---Very Light Weight Container\n
+---Framework\n
+---IOC\n
+---AOP\n\n
+    </string>
+    <string name="Button">Java</string>
+    <string name="Button2">Spring</string>
+
+
+    <string name="action_settings">Share</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#984aa1</color>
+    <color name="colorPrimaryDark">#5d0469</color>
+    <color name="colorAccent">#f703e3</color>
+    <color name="buttonBackground">#39b1bc</color>
+    <color name="label">#ffffff</color>
+    <color name="action_settings">#e2cdab</color> <!-- simply given for share background. but not working-->
+
+
+</resources>
